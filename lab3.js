@@ -1,12 +1,14 @@
+//const array
 const names = [Fionn, Shayanny, Adam, Stephen];
 
-
+//add task arrow function
 addTask = (task)=>{
     task.push(task);
     console.log(task + " has beem added to my tasks");
 
 }
 
+//lists all tasks by going through each one 
 let listAllTasks = ()=>{
     Tasks.forEach((element)=>{
         console.log(element);
@@ -15,6 +17,7 @@ let listAllTasks = ()=>{
     
 }
 
+//removes one of the tasks
 let splice = Task.indexOf((value)=>{
     let index = Tasks.indexOf(task);
 
@@ -27,6 +30,7 @@ let splice = Task.indexOf((value)=>{
     }
 });
 
+//calling and adding tasks
 addTask("Work");
 addTask("Exercise");
 addTask("Sleep");
