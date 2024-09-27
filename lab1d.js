@@ -1,13 +1,12 @@
 
+//arrow function set to 'a' that takes in a variable (in this case a string)
+let a = (sentence)=>{
 
-//constant ages variables
-const ages =  [25, 31, 42, 77];
+    console.log(sentence);
+}
 
-//arrow function
-let a = ages.map((item)=>{
+//variable that will be passed into arrow function
+let b = "hello world";
 
-    //if age is less than 70 multiply it by 2
-    if(item < 70){
-        console.log(item*2);
-    }
-})
+//passing b to arrow function
+a(b);
